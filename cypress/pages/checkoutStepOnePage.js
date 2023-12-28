@@ -13,7 +13,7 @@ class CheckoutStepOnePage {
         cy.get(this.lastNameInput).type(Cypress.env('lastName'));
       }
 
-    fillPostalCode(lastName) {
+    fillPostalCode(postalCode) {
         cy.get(this.postalCodeInput).type(Cypress.env('postalCode'));
       }
 
